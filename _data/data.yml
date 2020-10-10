@@ -96,8 +96,16 @@ experiences:
     details: |
       - Designing, developing and soldering PCBs for Atmega-32 micro-controllers
       - Designing motor drivers for 12VDC-5A motors using relay switches and optocoupler
+thesis:
+  title: "Situational-Aware mobile robot localization system: A Knowledge Representation and Reasoning approach"
+  intro: >
+    sdcsdcndkcdj sdcsdchds
+  details: |
+    sdcsdcsvadf knafdfd
+      - sadxsdjcn
+      - asdxsd
 projects:
-  title: Projects
+  title: "Situational-Aware mobile robot localization system: A Knowledge Representation and Reasoning approach"
   intro: >
     You can list your side projects or open source libraries in this
     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
