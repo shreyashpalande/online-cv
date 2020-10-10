@@ -7,114 +7,95 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Shreyash Palande
+    tagline: MSc in Systems and Control
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: shreyashpalande60@gmail.com
+    phone: +31 6266 71210
+    # website: blog.webjeda.com #do not add http://
+    linkedin: spalande97
+    github: shreyashpalande
     telegram: # add your nickname without '@' sign
-    gitlab:
+    gitlab: shreyashpalande60
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
         level: Professional
 
-      - idiom: Spanish
+      - idiom: Marathi
+        level: Native
+
+      - idiom: Hindi
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Photography
+        link:
+        
+      - item: Yoga
+        link:
+        
+      - item: Biking
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Traveling
         link:
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+        I am a robotics enthusiast inspired by the field of Self Adaptive Systems, 
+        Situational aware robots, Meta-cognitive controllers and Knowledge representation and reasoning
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Systems and Control
+      university: Delft University of Technology
+      time: 2018 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Thesis: "Situational-Aware mobile robot localization system: A Knowledge Representation and Reasoning approach" at AIRLab Delf
+          - Reusable semantic models of hardware and software components in form of ontology/knowledge graph to satisfy functional and non-functional requirements of the localization system
+          - Perform automated reasoning over the knowledge using real-time data to improve self-awareness and context-awareness of the localization system
+          - Implement MAPE-K feedback loop for self-adaptation in case of runtime faults/failures and violation of performance requirements
+          - This project was a part of AIRLab Delft (TU Delft-Ahold Delhaize industry lab) which aims at developing robotic solutions for retail supply chain, from warehouses and stores to customers 
+    - degree: Bachelor of Electronics Engineering 
+      university: University of Mumbai
+      time: 2014 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Bachelor Project: "Geo-Mapping of Chemicals and Micro-Biological Parameters of Watershed"
+          - Developed portable mobile station to perform chemical analysis of water within minutes
+          - Developed a method to automatically detect the concentration of colonies of E.coli in water using image
+          - Validated the work by performing chemical analysis of water from Bhavan’s Lake (Andheri, Mumbai) with 92% match with lab results
+          - The project was selected for poster presentations an international conference on “Sustainable Solutions Implemented To Provide Safe Drinking Waters 
+            To Rural And Urban Communities” organised by the Department of Microbiology and Bhavan’s Research Center under the aegis of Bhavan’s College, Andheri, Mumbai.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Robotics Software Inter
+      time: July 2019 - Oct 2019
+      company: Mainblades Inspections B.V., The Hague, Netherlands
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        I was responsible to improve the navigation pipeline especially localization
+        of DJI matrice 200 series drone to be used for autonomous aircraft inspection 
+        and develop an experimental setup to validate the navigation accuracy of the drone 
+          - Developed a localization system for UAV using Lidar odometry and dead reckoning with Absolute Trajectory Error of 1 cm 
+          - Developed an experimental setup with 2mm accuracy using HTC Vive base stations to be used as a ground truth measurement for validating localization algorithms
+          - Implemented an Extended Kalman filter for fusing laser odometry, IMU data and GPS signal for accurate position estimation
+    - role: Undergraduate Research Intern
+      time: Summer 2017
+      company: Indian Institute of Technology Bombay, India
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        I was responsible to develop an impulsive torque controller for swing up of the Acrobot 
+          - Modeling and control of the under-actuated two-link inverted pendulum using the impulsive control inputs approach for swing-up control with swing-up time less than 5 sec
+    - role: Embeded System Design Intern
+      time: Summer 2015
+      company: Emtron Technology, Mumbai, India
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Designing, developing and soldering PCBs for Atmega-32 micro-controllers
+          - Designing motor drivers for 12VDC-5A motors using relay switches and optocoupler
 projects:
     title: Projects
     intro: >
