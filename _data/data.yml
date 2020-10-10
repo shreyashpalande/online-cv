@@ -3,169 +3,169 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Shreyash Palande
-    tagline: MSc in Systems and Control
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Shreyash Palande
+  tagline: MSc in Systems and Control
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: shreyashpalande60@gmail.com
-    phone: +31 6266 71210
-    # website: blog.webjeda.com #do not add http://
-    linkedin: spalande97
-    github: shreyashpalande
-    telegram: # add your nickname without '@' sign
-    gitlab: shreyashpalande60
-    bitbucket:
-    # twitter: '@webjeda'
-    # stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: shreyashpalande60@gmail.com
+  phone: +31 6266 71210
+  # website: blog.webjeda.com #do not add http://
+  linkedin: spalande97
+  github: shreyashpalande
+  telegram: # add your nickname without '@' sign
+  gitlab: shreyashpalande60
+  bitbucket:
+  # twitter: '@webjeda'
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Professional
+  languages:
+    - idiom: English
+      level: Professional
 
-      - idiom: Marathi
-        level: Native
+    - idiom: Marathi
+      level: Native
 
-      - idiom: Hindi
-        level: Professional
+    - idiom: Hindi
+      level: Professional
 
-    interests:
-      - item: Photography
-        link:
-        
-      - item: Yoga
-        link:
-        
-      - item: Biking
-        link:
+  interests:
+    - item: Photography
+      link:
 
-      - item: Traveling
-        link:
+    - item: Yoga
+      link:
+
+    - item: Biking
+      link:
+
+    - item: Traveling
+      link:
 
 career-profile:
-    title: Summary
-    summary: |
-        I am a robotics enthusiast inspired by the field of Self Adaptive Systems, 
-        Situational aware robots, Meta-cognitive controllers and Knowledge representation and reasoning
+  title: Summary
+  summary: |
+    I am a robotics enthusiast inspired by the field of Self Adaptive Systems, 
+    Situational aware robots, Meta-cognitive controllers and Knowledge representation and reasoning
 education:
-    - degree: MSc in Systems and Control
-      university: Delft University of Technology
-      time: 2018 - 2020
-      details: |
-        Thesis: "Situational-Aware mobile robot localization system: A Knowledge Representation and Reasoning approach" at AIRLab Delf
-          - Reusable semantic models of hardware and software components in form of ontology/knowledge graph to satisfy functional and non-functional requirements of the localization system
-          - Perform automated reasoning over the knowledge using real-time data to improve self-awareness and context-awareness of the localization system
-          - Implement MAPE-K feedback loop for self-adaptation in case of runtime faults/failures and violation of performance requirements
-          - This project was a part of AIRLab Delft (TU Delft-Ahold Delhaize industry lab) which aims at developing robotic solutions for retail supply chain, from warehouses and stores to customers 
-    - degree: Bachelor of Electronics Engineering 
-      university: University of Mumbai
-      time: 2014 - 2018
-      details: |
-        Bachelor Project: "Geo-Mapping of Chemicals and Micro-Biological Parameters of Watershed"
-          - Developed portable mobile station to perform chemical analysis of water within minutes
-          - Developed a method to automatically detect the concentration of colonies of E.coli in water using image
-          - Validated the work by performing chemical analysis of water from Bhavan’s Lake (Andheri, Mumbai) with 92% match with lab results
-          - The project was selected for poster presentations an international conference on “Sustainable Solutions Implemented To Provide Safe Drinking Waters 
-            To Rural And Urban Communities” organised by the Department of Microbiology and Bhavan’s Research Center under the aegis of Bhavan’s College, Andheri, Mumbai.
+  - degree: MSc in Systems and Control
+    university: Delft University of Technology
+    time: 2018 - 2020
+    details: |
+      Thesis: "Situational-Aware mobile robot localization system: A Knowledge Representation and Reasoning approach" at AIRLab Delf
+        - Reusable semantic models of hardware and software components in form of ontology/knowledge graph to satisfy functional and non-functional requirements of the localization system
+        - Perform automated reasoning over the knowledge using real-time data to improve self-awareness and context-awareness of the localization system
+        - Implement MAPE-K feedback loop for self-adaptation in case of runtime faults/failures and violation of performance requirements
+        - This project was a part of AIRLab Delft (TU Delft-Ahold Delhaize industry lab) which aims at developing robotic solutions for retail supply chain, from warehouses and stores to customers
+  - degree: Bachelor of Electronics Engineering
+    university: University of Mumbai
+    time: 2014 - 2018
+    details: |
+      Bachelor Project: "Geo-Mapping of Chemicals and Micro-Biological Parameters of Watershed"
+        - Developed portable mobile station to perform chemical analysis of water within minutes
+        - Developed a method to automatically detect the concentration of colonies of E.coli in water using image
+        - Validated the work by performing chemical analysis of water from Bhavan’s Lake (Andheri, Mumbai) with 92% match with lab results
+        - The project was selected for poster presentations an international conference on “Sustainable Solutions Implemented To Provide Safe Drinking Waters 
+          To Rural And Urban Communities” organised by the Department of Microbiology and Bhavan’s Research Center under the aegis of Bhavan’s College, Andheri, Mumbai.
 experiences:
-    - role: Robotics Software Inter
-      time: July 2019 - Oct 2019
-      company: Mainblades Inspections B.V., The Hague, Netherlands
-      details: |
-        I was responsible to improve the navigation pipeline especially localization
-        of DJI matrice 200 series drone to be used for autonomous aircraft inspection 
-        and develop an experimental setup to validate the navigation accuracy of the drone 
-          - Developed a localization system for UAV using Lidar odometry and dead reckoning with Absolute Trajectory Error of 1 cm 
-          - Developed an experimental setup with 2mm accuracy using HTC Vive base stations to be used as a ground truth measurement for validating localization algorithms
-          - Implemented an Extended Kalman filter for fusing laser odometry, IMU data and GPS signal for accurate position estimation
-    - role: Undergraduate Research Intern
-      time: Summer 2017
-      company: Indian Institute of Technology Bombay, India
-      details: |
-        I was responsible to develop an impulsive torque controller for swing up of the Acrobot 
-          - Modeling and control of the under-actuated two-link inverted pendulum using the impulsive control inputs approach for swing-up control with swing-up time less than 5 sec
-    - role: Embeded System Design Intern
-      time: Summer 2015
-      company: Emtron Technology, Mumbai, India
-      details: |
-          - Designing, developing and soldering PCBs for Atmega-32 micro-controllers
-          - Designing motor drivers for 12VDC-5A motors using relay switches and optocoupler
+  - role: Robotics Software Inter
+    time: July 2019 - Oct 2019
+    company: Mainblades Inspections B.V., The Hague, Netherlands
+    details: |
+      I was responsible to improve the navigation pipeline especially localization
+      of DJI matrice 200 series drone to be used for autonomous aircraft inspection 
+      and develop an experimental setup to validate the navigation accuracy of the drone 
+        - Developed a localization system for UAV using Lidar odometry and dead reckoning with Absolute Trajectory Error of 1 cm 
+        - Developed an experimental setup with 2mm accuracy using HTC Vive base stations to be used as a ground truth measurement for validating localization algorithms
+        - Implemented an Extended Kalman filter for fusing laser odometry, IMU data and GPS signal for accurate position estimation
+  - role: Undergraduate Research Intern
+    time: Summer 2017
+    company: Indian Institute of Technology Bombay, India
+    details: |
+      I was responsible to develop an impulsive torque controller for swing up of the Acrobot 
+        - Modeling and control of the under-actuated two-link inverted pendulum using the impulsive control inputs approach for swing-up control with swing-up time less than 5 sec
+  - role: Embeded System Design Intern
+    time: Summer 2015
+    company: Emtron Technology, Mumbai, India
+    details: |
+      - Designing, developing and soldering PCBs for Atmega-32 micro-controllers
+      - Designing motor drivers for 12VDC-5A motors using relay switches and optocoupler
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title: The Art of Computer Programming
+      link: "#"
+      authors: Donald E. Knuth
+      conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      link: "#"
+      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - title: A syntax directed compiler for Algol 60
+      link: "#"
+      authors: Edgar T. Irons
+      conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: Python & Django
+      level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Javascript & jQuery
+      level: 98%
 
-      - name: Angular
-        level: 98%
+    - name: Angular
+      level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: HTML5 & CSS
+      level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Ruby on Rails
+      level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Sketch & Photoshop
+      level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
