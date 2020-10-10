@@ -1,0 +1,29 @@
+{% assign thesis = site.data.data.thesis %}
+{% if thesis %}
+<section class="section thesis-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ thesis.title }}
+  </h2>
+
+  {% if thesis.intro %}
+  <div class="intro">
+    <p>{{ thesis.intro }}</p>
+  </div>
+  <!--//intro-->
+  {% endif %}
+
+  {% if thesis.details %}
+  <div class="details">
+    {{ thesis.details | markdownify }}
+  </div>
+  <!--//details-->
+  {% endif %}
+
+</section>
+<!--//section-->
+{% endif %}
