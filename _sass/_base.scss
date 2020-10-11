@@ -282,9 +282,9 @@ p {
             margin-top: 0px;
             margin-bottom: 1px;
             overflow: hidden;
-            max-width: 100px;
-            min-width: 100px;
-            float:left;
+            float: left;
+            border-right: 2px solid #000;
+            padding-right: 5px;
         }
 
         .skill-title {
@@ -308,8 +308,8 @@ p {
             margin-top: 0px;
             margin-bottom: 1px;
             overflow: hidden;
-            max-width: 600px;
-            min-width: 300px; 
+            float: left;
+            padding-left: 5px;
         }
 
         .skill-titler {
