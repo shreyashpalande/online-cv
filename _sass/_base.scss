@@ -151,22 +151,16 @@ p {
         }
     }
 
-    .skills-container {
-        .type {
-            margin-bottom: 15px;
+    .skills-list {
+        margin-bottom: 0;
+
+        li {
+            margin-bottom: 10px;
 
             &:last-child {
                 margin-bottom: 0;
             }
         }
-
-        .name {
-            color: rgba(256, 256, 256, 0.6);
-            font-weight: 500;
-            margin-bottom: 0px;
-            margin-top: 0;
-        }
-
     }
 
     .languages-container {
