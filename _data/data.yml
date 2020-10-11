@@ -3,7 +3,7 @@
 #
 
 sidebar:
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
@@ -25,15 +25,19 @@ sidebar:
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
-  languages:
+  skills:
     - idiom: English
       level: Professional
 
     - idiom: Marathi
       level: Native
 
-    - idiom: Hindi
+  languages:
+    - idiom: English
       level: Professional
+
+    - idiom: Marathi
+      level: Native
 
   interests:
     - item: Photography
@@ -104,7 +108,7 @@ thesis:
       I was responsible to improve the navigation pipeline especially localization
         - Reusable semantic models of hardware and software components in form of ontology/knowledge graph to satisfy functional and non-functional requirements of the localization system
         - Perform automated reasoning over the knowledge using real-time data to improve self-awareness and context-awareness of the localization system
-        - Implement MAPE-K feedback loop for self-adaptation in case of runtime faults/failures and violation of performance requirements
+        - Implement MAPE-K feedback loop for self-adaptation in case of runtime faults/failures and constraints violation
 projects:
   title: Projects
   intro: >
@@ -132,49 +136,49 @@ projects:
       link: "#"
       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-    - title: The Art of Computer Programming
-      link: "#"
-      authors: Donald E. Knuth
-      conference: Addison-Wesley, 1968
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#     - title: The Art of Computer Programming
+#       link: "#"
+#       authors: Donald E. Knuth
+#       conference: Addison-Wesley, 1968
 
-    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-      link: "#"
-      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#     - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#       link: "#"
+#       authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#       conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-    - title: A syntax directed compiler for Algol 60
-      link: "#"
-      authors: Edgar T. Irons
-      conference: "Comm. ACM 4 (1961), 51–55"
+#     - title: A syntax directed compiler for Algol 60
+#       link: "#"
+#       authors: Edgar T. Irons
+#       conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-  title: Skills &amp; Proficiency
+# skills:
+#   title: Skills &amp; Proficiency
 
-  toolset:
-    - name: Python & Django
-      level: 98%
+#   toolset:
+#     - name: Python & Django
+#       level: 98%
 
-    - name: Javascript & jQuery
-      level: 98%
+#     - name: Javascript & jQuery
+#       level: 98%
 
-    - name: Angular
-      level: 98%
+#     - name: Angular
+#       level: 98%
 
-    - name: HTML5 & CSS
-      level: 95%
+#     - name: HTML5 & CSS
+#       level: 95%
 
-    - name: Ruby on Rails
-      level: 85%
+#     - name: Ruby on Rails
+#       level: 85%
 
-    - name: Sketch & Photoshop
-      level: 60%
+#     - name: Sketch & Photoshop
+#       level: 60%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
