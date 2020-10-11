@@ -162,12 +162,12 @@ skills:
       - title: Embeded Systems Software
         tagline:  Arduino IDE, mbed OS
 
-    # toolsetright:
-    #   - title: Other Software
-    #     tagline:  MATLAB, LabView
-    #   - title:  Software
-    #     tagline:  n123
-    #   - title: asda Vision Libraries
-    #     tagline:  OpenCV, Skit-Image, Skit-Learn
-    #   - title: asd Systems Software
-    #     tagline:  Arduino IDE, mbed OS
+    toolsetright:
+      - title: Other Software
+        tagline:  MATLAB, LabView
+      - title:  Software
+        tagline:  n123
+      - title: asda Vision Libraries
+        tagline:  OpenCV, Skit-Image, Skit-Learn
+      - title: asd Systems Software
+        tagline:  Arduino IDE, mbed OS
