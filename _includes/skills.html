@@ -10,24 +10,21 @@
     {{ skills.title }}
   </h2>
 
-  <!-- <div class="skillset"> -->
+  <div class="skillset">
 
-  {% for skill in skills.toolset %}
-  <!-- <div class="item"> -->
+    {% for skill in skills.toolset %}
+    <div class="item">
+      <h3 class="skill-title">{{ skill.title }}</h3>
 
-  <span class="skill-title">
-    {{ skill.title }}
-  </span>
+      {% if skill.tagline %}
+      - <div class="skill-tagline">{{ skill.tagline }}</div>
+      {% endif %}
 
-  {% if skill.tagline %}
-  - <span class="skill-tagline">{{ skill.tagline }}</span>
-  {% endif %}
+    </div>
+    <!--//item-->
+    {% endfor %}
 
-  <!-- </div> -->
-  <!--//item-->
-  {% endfor %}
-
-  <!-- </div> -->
+  </div>
 
 </section>
 <!--//skills-section-->
