@@ -24,6 +24,19 @@
 
   </div>
 
+  <div class="skillsetr">
+    {% for skill in skills.toolsetr %}
+    <div class="itemr">
+      <h3 class="skill-titler">{{ skill.titler }}</h3>
+      <span class="metar">
+        - <span class="skill-tagliner">{{ skill.tagliner }}</span>
+      </span>
+    </div>
+    <!--//item-->
+    {% endfor %}
+
+  </div>
+
 </section>
 <!--//skills-section-->
 {% endif %}

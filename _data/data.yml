@@ -150,12 +150,24 @@ projects:
 #       conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
       - title: Programming languages
-        tagline: C++, Python
+        tagline:  C++, Python
       - title: Robotics Software
-        tagline: ROS, Rviz, Gazebo
-      - title: Libraries
-        tagline: OpenCV, Skit-Image
+        tagline:  ROS, Rviz, Gazebo
+      - title: Computer Vision Libraries
+        tagline:  OpenCV, Skit-Image, Skit-Learn
+      - title: Embeded Systems Software
+        tagline:  Arduino IDE, mbed OS
+
+    toolsetr:
+      - titler: Programming languages
+        tagliner:  C++, Python
+      - titler: Robotics Software
+        tagliner:  ROS, Rviz, Gazebo
+      - titler: Computer Vision Libraries
+        tagliner:  OpenCV, Skit-Image, Skit-Learn
+      - titler: Embeded Systems Software
+        tagliner:  Arduino IDE, mbed OS
