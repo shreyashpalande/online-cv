@@ -124,7 +124,6 @@ projects:
     # - title: Vehicle health monitoring
     #   link: "#"
     #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
     # - title: WSN on condition monitoring of Railway Industry
     #   link: "#"
     #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
@@ -151,13 +150,14 @@ projects:
 #       conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Programming Languages
-        type: C++, Python
+  toolset:
+    - name: Programming Languages
+      type: C++, Python
 
-      - name: Javascript & jQuery
-        type: 98%
-# footer: >
-#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - name: Robotics Software
+      type: ROS, Gazebo, Rviz
+
+    - name: Operating System
+      type: Linux, Windows
