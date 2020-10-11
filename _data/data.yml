@@ -163,7 +163,7 @@ skills:
         tagline:  Arduino IDE, mbed OS
 
     toolsetright:
-      - title: Ass
+      - title: Other Software
         tagline:  C++, Python
       - title: asd Software
         tagline:  ROS, Rviz, Gazebo
