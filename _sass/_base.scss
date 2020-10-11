@@ -305,8 +305,7 @@ p {
 
     .skillsetright {
         width: 240px;
-        float: right;
-        overflow: overlay;
+        overflow: hidden;
         background:green;
         .item {
             margin-top: 0px;
