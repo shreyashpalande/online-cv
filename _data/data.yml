@@ -25,6 +25,10 @@ sidebar:
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
+  skills:
+    - type: Skills &amp; Proficiency
+      skillset: Python & Django
+
   languages:
     - idiom: English
       level: Professional
