@@ -6,15 +6,15 @@
     Skills
   </h2>
 
-  <ul class="list-unstyled skills-list"></ul>
-  {% for skill in skills %}
-  <li></li>
-  <h4 class="type">{{ skill.type }}</h4>
-  </li>
-  <li></li>
-  <h5 class="name">{{ skill.name }}</h5>
-  </li>
-  {% endfor %}
+  <ul class="list-unstyled skills-list">
+    {% for skill in skills %}
+    <li>
+      <h4 class="type">{{ skill.type }}</h4>
+    </li>
+    <li>
+      <h5 class="name">{{ skill.name }}</h5>
+    </li>
+    {% endfor %}
   </ul>
 </div>
 <!--//skills-container-->
