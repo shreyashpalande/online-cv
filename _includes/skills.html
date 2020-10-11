@@ -15,11 +15,11 @@
     {% for skill in skills.toolset %}
     <div class="item">
       <h3 class="skill-title">{{ skill.title }}</h3>
-
       {% if skill.tagline %}
-      <div class="skill-tagline">{{ skill.tagline }}</div>
-      {% endif %}
-
+      <div class="meta">
+        <div class="skill-tagline">{{ skill.tagline }}</div>
+        {% endif %}
+      </div>
     </div>
     <!--//item-->
     {% endfor %}
