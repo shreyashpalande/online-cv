@@ -129,22 +129,21 @@ p {
     .skillset-container {
         .item {
             margin-bottom: 15px;
-            // overflow: hidden;
             &:last-child {
                 margin-bottom: 0;
             }
         }
         .type {
-            font-size: 14px;
-            margin-top: 0;
+            color: rgba(256, 256, 256, 0.6);
+            font-weight: 500;
             margin-bottom: 0px;
+            margin-top: 0;
         }
         .skillset {
             color: rgba(256, 256, 256, 0.6);
-            font-size: 12px;
             font-weight: 500;
-            margin-top: 0;
             margin-bottom: 0px;
+            margin-top: 0;
         }
     }    
     .languages-container {
