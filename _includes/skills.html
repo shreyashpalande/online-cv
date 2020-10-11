@@ -15,9 +15,9 @@
     {% for skill in skills.toolset %}
     <div class="item">
       <h3 class="skill-title">{{ skill.title }}</h3>
-      <div class="meta">
-        <div class="skill-tagline">{{ skill.tagline }}</div>
-      </div>
+      <span class="meta">
+        - <span class="skill-tagline">{{ skill.tagline }}</span>
+      </span>
     </div>
     <!--//item-->
     {% endfor %}
