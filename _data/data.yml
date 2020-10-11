@@ -115,7 +115,7 @@ projects:
 
     - title: Autonomous Racing Vehicle, F.S. Team Delft and MIT Driverless
       link: "#"
-      tagline: "Part of a student team analyzing and implementing localization algorithms such as EKF and particle filters for the driverless racecar competition."
+      tagline: "Part of a student team responsible analyzing and implementing localization algorithms such as EKF and particle filters for the driverless racecar competition."
 
     # - title: WSN on condition monitoring of Railway Industry
     #   link: "#"
