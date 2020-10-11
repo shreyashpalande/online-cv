@@ -18,19 +18,12 @@ sidebar:
   linkedin: spalande97
   github: shreyashpalande
   telegram: # add your nickname without '@' sign
-  gitlab: shreyashpalande60
+  gitlab:
   bitbucket:
   # twitter: '@webjeda'
   # stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
-
-  skills:
-    - idiom: English
-      level: Professional
-
-    - idiom: Marathi
-      level: Native
 
   languages:
     - idiom: English
@@ -135,7 +128,6 @@ projects:
     - title: Delta
       link: "#"
       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 # publications:
 #   title: Publications
 #   intro: |
