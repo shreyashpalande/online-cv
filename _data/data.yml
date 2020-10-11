@@ -24,11 +24,7 @@ sidebar:
   # stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
-  skills:
-    - type: Programming
-      skillset: Python & C++
-    - type: Robotics
-      skillset: ROS, ROS2, Gazebo, Rviz
+
   languages:
     - idiom: English
       level: Professional
@@ -75,7 +71,7 @@ education:
         - The project was selected for poster presentations an international conference on “Sustainable Solutions Implemented To Provide Safe Drinking Waters 
           To Rural And Urban Communities” organised by the Department of Microbiology and Bhavan’s Research Center under the aegis of Bhavan’s College, Andheri, Mumbai.
 experiences:
-  - role: Robotics Software Intern
+  - role: Robotics Software Inter
     time: July 2019 - Oct 2019
     company: Mainblades Inspections B.V., The Hague, Netherlands
     details: |
@@ -153,6 +149,28 @@ projects:
 #       link: "#"
 #       authors: Edgar T. Irons
 #       conference: "Comm. ACM 4 (1961), 51–55"
+
+# skills:
+#   title: Skills &amp; Proficiency
+
+#   toolset:
+#     - name: Python & Django
+#       level: 98%
+
+#     - name: Javascript & jQuery
+#       level: 98%
+
+#     - name: Angular
+#       level: 98%
+
+#     - name: HTML5 & CSS
+#       level: 95%
+
+#     - name: Ruby on Rails
+#       level: 85%
+
+#     - name: Sketch & Photoshop
+#       level: 60%
 
 # footer: >
 #   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -15,25 +15,19 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-  </div>
-  <!--//profile-container-->
+  </div><!--//profile-container-->
 
   {% include contact.html %}
 
   {% if sidebar.education %}
-  {% include education.html %}
-  {% endif %}
-
-  {% if sidebar.skills %}
-  {% include skills.html %}
+    {% include education.html %}
   {% endif %}
 
   {% include language.html %}
   {% include interests.html %}
 
   {% if sidebar.about %}
-  {% include about.html %}
+    {% include about.html %}
   {% endif %}
 
-</div>
-<!--//sidebar-wrapper-->
+</div><!--//sidebar-wrapper-->
