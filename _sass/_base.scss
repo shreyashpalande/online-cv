@@ -305,7 +305,8 @@ p {
 
     .skillsetright {
         height: 100%;
-        width: 340px;
+        float: right;
+        width: 440px;
         overflow: hidden;
 
         .item {
