@@ -71,7 +71,7 @@ education:
         - The project was selected for poster presentations an international conference on “Sustainable Solutions Implemented To Provide Safe Drinking Waters 
           To Rural And Urban Communities” organised by the Department of Microbiology and Bhavan’s Research Center under the aegis of Bhavan’s College, Andheri, Mumbai.
 experiences:
-  - role: Robotics Software Inter
+  - role: Robotics Software Intern
     time: July 2019 - Oct 2019
     company: Mainblades Inspections B.V., The Hague, Netherlands
     details: |
@@ -153,21 +153,23 @@ skills:
     title: Skills
 
     toolset:
-      - title: Programming languages
-        tagline:  C++, Python
-      - title: Robotics Software
+      - title:  Programming languages
+        tagline:  C++, Python, Embedded C
+      - title:  Robotics Software
         tagline:  ROS, Rviz, Gazebo
-      - title: Computer Vision Libraries
-        tagline:  OpenCV, Skit-Image, Skit-Learn
-      - title: Embeded Systems Software
+      - title:  Computer Vision Libraries
+        tagline:  OpenCV, Scikit-Image
+      - title:  Embeded Systems Software
         tagline:  Arduino IDE, mbed OS
+      - title:  Knowledge Representation tools/languages
+        tagline: Graql, OWL, Protege, GRAKN.AI 
 
     toolsetright:
-      - title: Other Software
-        tagline:  MATLAB, LabView
-      - title:  Software
-        tagline:  
-      - title:  Vision Libraries
-        tagline:  OpenCV, Skit-Image, Skit-Learn
-      - title:  Systems 
-        tagline:  
+      - title:  Machine Learning Libraries
+        tagline:  Scikit-Learn, Tensorflow
+      - title:  Hardware Experiences
+        tagline:  Raspberry PI, Arduino, ARM Cortex, Atmega 32 micro-controllers
+      - title:  Operating System
+        tagline:  Linux, Windows
+      - title:  Others 
+        tagline: Matlab, Simulink, LabView, git (version control)
