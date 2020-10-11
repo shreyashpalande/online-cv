@@ -103,7 +103,7 @@ thesis:
         - Perform automated reasoning over the knowledge using real-time data to improve self-awareness and context-awareness of the localization system
         - Implement MAPE-K feedback loop for self-adaptation in case of runtime faults/failures and constraints violation
 projects:
-  title: Projects
+  title: Recent Projects
   # intro: >
   #   You can list your side projects or open source libraries in this
   #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -111,15 +111,15 @@ projects:
   assignments:
     - title: Control of Rotary Inverted Pendulum
       link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      tagline: "Modelling, System Identification and various controllers developed for control rotary inverted pendulum"
 
     - title: Autonomous Racing Vehicle, F.S. Team Delft and MIT Driverless
       link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
+      tagline: "Part of a student team analyzing and implementing localization algorithms such as EKF and particle filters for the driverless racecar competition."
 
-    - title: WSN on condition monitoring of Railway Industry
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    # - title: WSN on condition monitoring of Railway Industry
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
     # - title: Vehicle health monitoring
     #   link: "#"
