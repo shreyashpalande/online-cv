@@ -18,14 +18,17 @@
       <h3 class="level-title">{{ skill.name }}</h3>
 
       <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        <div class="level-bar-inner">{{ skill.name }}>
         </div>
-      </div><!--//level-bar-->
+      </div>
+      <!--//level-bar-->
 
-    </div><!--//item-->
+    </div>
+    <!--//item-->
     {% endfor %}
 
   </div>
 
-</section><!--//skills-section-->
+</section>
+<!--//skills-section-->
 {% endif %}
