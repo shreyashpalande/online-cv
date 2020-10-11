@@ -1,29 +1,29 @@
-{% assign skills = site.data.data.sidebar.skills %}
+{% assign skills = site.data.data.skills %}
 {% if skills %}
   {% if site.data.data.sidebar.skills %}
   <div class="skills-container container-block">
 
     <h2 class="container-block-title">
-      skills
+      Skills
     </h2>
 
     {% for skill in skills %}
     <div class="item">
-      <h4 class="type">{{ skill.type }}</h4>
-      <h5 class="meta">{{ skill.name }}</h5>
+      <h3 class="type">{{ skill.type }}</h3>
+      <h5 class="skillset">{{ skill.skillset }}</h5>
     </div><!--//item-->
     {% endfor %}
 
-  </div><!--//skills-container-->
+  </div><!--//education-container-->
   {% else %}
-  <section class="section skillss-section">
+  <section class="section skills-section">
 
     <h2 class="section-title">
       <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-skill-cap fa-stack-1x fa-inverse"></i>
       </span>
-      skills
+      Skills
     </h2>
 
     {% for skill in skills %}
@@ -33,16 +33,10 @@
 
         <div class="upper-row">
           <h3 class="type">{{ skill.type }}</h3>
+          <div class="skillset">{{ skill.skillset }}</div>
         </div><!--//upper-row-->
 
-        <div class="name">{{ skill.name }}</div>
       </div><!--//meta-->
-
-      {% if skill.details %}
-      <div class="details">
-        {{ skill.details | markdownify }}
-      </div><!--//details-->
-      {% endif %}
 
     </div><!--//item-->
     {% endfor %}
