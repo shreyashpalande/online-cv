@@ -279,6 +279,7 @@ p {
 
     .skillset {
         float: left;
+        margin-left: 5px;
         width: 260px;
 
         .item {
@@ -304,7 +305,7 @@ p {
     }
 
     .skillsetright {
-        width: 360px;
+        width: 300px;
         overflow: hidden;
         .item {
             margin-top: 0px;
