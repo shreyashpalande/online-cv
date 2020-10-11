@@ -166,8 +166,8 @@ skills:
       - title: Other Software
         tagline:  MATLAB, LabView
       - title:  Software
-        tagline:  n123
-      - title: asda Vision Libraries
+        tagline:  
+      - title:  Vision Libraries
         tagline:  OpenCV, Skit-Image, Skit-Learn
-      - title: asd Systems Software
+      - title:  Systems Software
         tagline:  Arduino IDE, mbed OS
