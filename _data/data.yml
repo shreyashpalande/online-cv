@@ -153,9 +153,5 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Programming Languages
-        type: C++, Python
-      - name: Robotics Software
-        type: ROS, Gazebo, Rviz
-      - name: Operating System
-        type: Linux, Windows
+      - title: Programming skills
+        tagline: Python & Django
