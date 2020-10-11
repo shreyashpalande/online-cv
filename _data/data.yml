@@ -162,12 +162,12 @@ skills:
       - title: Embeded Systems Software
         tagline:  Arduino IDE, mbed OS
 
-    toolsetr:
-      - titler: Programming languages
-        tagliner:  C++, Python
-      - titler: Robotics Software
-        tagliner:  ROS, Rviz, Gazebo
-      - titler: Computer Vision Libraries
-        tagliner:  OpenCV, Skit-Image, Skit-Learn
-      - titler: Embeded Systems Software
-        tagliner:  Arduino IDE, mbed OS
+    toolsetright:
+      - title: Programming languages
+        tagline:  C++, Python
+      - title: Robotics Software
+        tagline:  ROS, Rviz, Gazebo
+      - title: Computer Vision Libraries
+        tagline:  OpenCV, Skit-Image, Skit-Learn
+      - title: Embeded Systems Software
+        tagline:  Arduino IDE, mbed OS

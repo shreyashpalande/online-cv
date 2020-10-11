@@ -278,9 +278,38 @@ p {
     }
 
     .skillset {
+        float: left;
+        padding-left: 50px;
+
         .item {
             margin-top: 0px;
-            margin-bottom: 1px;
+            margin-bottom: 3px;
+            overflow: hidden;
+        }
+
+        .skill-title {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            color: darken($theme-color, 15%);
+        }
+
+        .meta {
+            font-weight: 500;
+            margin-bottom: 0px;
+            margin-top: 1px;
+            color: $text-color;
+        }
+    }
+
+    .skillsetright {
+        float: left;
+        padding-right: 50px;
+
+        .item {
+            margin-top: 0px;
+            margin-bottom: 3px;
             overflow: hidden;
         }
 
