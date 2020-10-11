@@ -25,6 +25,12 @@ sidebar:
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
+  skills:
+    - type: Computer Languages
+      name: Python, C++
+    - type: Robotics Software
+      name: ROS, Gazebo, Rviz
+
   languages:
     - idiom: English
       level: Professional
@@ -71,7 +77,7 @@ education:
         - The project was selected for poster presentations an international conference on “Sustainable Solutions Implemented To Provide Safe Drinking Waters 
           To Rural And Urban Communities” organised by the Department of Microbiology and Bhavan’s Research Center under the aegis of Bhavan’s College, Andheri, Mumbai.
 experiences:
-  - role: Robotics Software Inter
+  - role: Robotics Software Intern
     time: July 2019 - Oct 2019
     company: Mainblades Inspections B.V., The Hague, Netherlands
     details: |

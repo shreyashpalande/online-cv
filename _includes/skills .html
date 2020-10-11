@@ -1,0 +1,17 @@
+{% assign skills = site.data.data.skills %}
+<div class="skills-container container-block">
+
+  <h2 class="container-block-title">
+    Skills
+  </h2>
+
+  {% for skill in skills %}
+  <div class="item">
+    <h4 class="type">{{ skill.type }}</h4>
+    <h5 class="name">{{ skill.name }}</h5>
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</div>
+<!--//skills-container-->
