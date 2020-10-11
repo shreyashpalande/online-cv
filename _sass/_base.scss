@@ -284,16 +284,15 @@ p {
         }
 
         .skill-title {
-            font-style: bold;
-            font-size: 15px;
+            font-size: 16px;
+            font-weight: 400;
             margin-top: 0;
-            margin-bottom: 12px;
+            margin-bottom: 5px;
+            color: darken($theme-color, 15%);
         }
 
         .skill.tagline {
-            font-size: 12px;
-            margin-top: 0;
-            margin-bottom: 12px;
+            margin-bottom: 30px;
         }
     }
 }
