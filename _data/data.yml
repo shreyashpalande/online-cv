@@ -150,14 +150,12 @@ projects:
 #       conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-  title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-  toolset:
-    - name: Programming Languages
-      type: C++, Python
-
-    - name: Robotics Software
-      type: ROS, Gazebo, Rviz
-
-    - name: Operating System
-      type: Linux, Windows
+    toolset:
+      - name: Programming Languages
+        type: C++, Python
+      - name: Robotics Software
+        type: ROS, Gazebo, Rviz
+      - name: Operating System
+        type: Linux, Windows
