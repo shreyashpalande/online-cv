@@ -24,6 +24,8 @@
 
   </div>
 
+  {% if skills.toolsetright %}
+
   <div class="skillsetright">
 
     {% for skill in skills.toolsetright %}
@@ -35,6 +37,7 @@
     </div>
     <!--//item-->
     {% endfor %}
+    {% endif %}
 
   </div>
 </section>
