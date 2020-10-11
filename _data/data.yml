@@ -150,10 +150,10 @@ projects:
 #       conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-  title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-  toolset:
-    - title: Programming languages
-      tagline: C++, Python
-    - title: Programming skills
-      tagline: Python & Django
+    toolset:
+      - title: Programming languages
+        tagline: C++, Python
+      - title: Programming skills
+        tagline: Python & Django
