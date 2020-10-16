@@ -75,7 +75,7 @@ experiences:
     time: July 2019 - Oct 2019
     company: Mainblades Inspections B.V., The Hague, Netherlands
     details: |
-      I was responsible to improve the navigation pipeline especially localization
+      Responsible to improve the navigation pipeline especially localization
       of DJI matrice 200 series drone to be used for autonomous aircraft inspection 
       and develop an experimental setup to validate the navigation accuracy of the drone 
         - Developed a localization system for UAV using Lidar odometry and dead reckoning with Absolute Trajectory Error of 1 cm 
@@ -85,7 +85,7 @@ experiences:
     time: Summer 2017
     company: Indian Institute of Technology Bombay, India
     details: |
-      I was responsible to develop an impulsive torque controller for swing up of the Acrobot 
+      Responsible to develop an impulsive torque controller for swing up of the Acrobot 
         - Modeling and control of the under-actuated two-link inverted pendulum using the impulsive control inputs approach for swing-up control with swing-up time less than 5 sec
   - role: Embeded System Design Intern
     time: Summer 2015
