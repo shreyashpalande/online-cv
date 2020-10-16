@@ -55,7 +55,7 @@ education:
     university: Delft University of Technology
     time: 2018 - 2020
     details: |
-      Thesis: "Situational-Aware mobile robot localization system: A Knowledge Representation and Reasoning approach" at AIRLab Delf
+      Thesis: "Situational-Aware mobile robot localization system: A Knowledge Representation and Reasoning approach" at AIRLab Delft
         - Reusable semantic models of hardware and software components in form of ontology/knowledge graph to satisfy functional and non-functional requirements of the localization system
         - Perform automated reasoning over the knowledge using real-time data to improve self-awareness and context-awareness of the localization system
         - Implement MAPE-K feedback loop for self-adaptation in case of runtime faults/failures and violation of performance requirements
@@ -98,7 +98,6 @@ thesis:
     time: Oct 2019 - Oct 2020
     company: AIRLab Delft (TU Delft-Ahold Delhaize industry lab), Delft, Netherlands
     details: |
-      I was responsible to improve the navigation pipeline especially localization
         - Reusable semantic models of hardware and software components in form of ontology/knowledge graph to satisfy functional and non-functional requirements of the localization system
         - Perform automated reasoning over the knowledge using real-time data to improve self-awareness and context-awareness of the localization system
         - Implement MAPE-K feedback loop for self-adaptation in case of runtime faults/failures and constraints violation
