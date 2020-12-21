@@ -71,9 +71,14 @@ education:
         - The project was selected for poster presentations an international conference on “Sustainable Solutions Implemented To Provide Safe Drinking Waters 
           To Rural And Urban Communities” organised by the Department of Microbiology and Bhavan’s Research Center under the aegis of Bhavan’s College, Andheri, Mumbai.
 experiences:
+  - role: Junior Robotics Engineer
+    time: November 2020 - Present
+    company: GeoSignum B.V., Delft, Nederland
+    details: |
+      Responsible for researching, documenting, developing software components for realtime mobile mapping
   - role: Robotics Software Intern
     time: July 2019 - Oct 2019
-    company: Mainblades Inspections B.V., The Hague, Netherlands
+    company: Mainblades Inspections B.V., Den Haag, Nederland
     details: |
       Responsible to improve the navigation pipeline especially localization
       of DJI matrice 200 series drone to be used for autonomous aircraft inspection 
@@ -81,18 +86,6 @@ experiences:
         - Developed a localization system for UAV using Lidar odometry and dead reckoning with Absolute Trajectory Error of 1 cm 
         - Developed an experimental setup with 2mm accuracy using HTC Vive base stations to be used as a ground truth measurement for validating localization algorithms
         - Implemented an Extended Kalman filter for fusing laser odometry, IMU data and GPS signal for accurate position estimation
-  - role: Undergraduate Research Intern
-    time: Summer 2017
-    company: Indian Institute of Technology Bombay, India
-    details: |
-      Responsible to develop an impulsive torque controller for swing up of the Acrobot 
-        - Modeling and control of the under-actuated two-link inverted pendulum using the impulsive control inputs approach for swing-up control with swing-up time less than 5 sec
-  - role: Embeded System Design Intern
-    time: Summer 2015
-    company: Emtron Technology, Mumbai, India
-    details: |
-      - Designing, developing and soldering PCBs for Atmega-32 micro-controllers
-      - Designing motor drivers for 12VDC-5A motors using relay switches and optocoupler
 thesis:
   - role: "Situational-Aware mobile robot localization system: A Knowledge Representation and Reasoning approach"
     time: Oct 2019 - Oct 2020
